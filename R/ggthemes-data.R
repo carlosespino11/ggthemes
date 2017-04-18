@@ -648,7 +648,10 @@ ggthemes_data <- {
           red = rgb(255, 39, 0, max = 255),
           blue = rgb(0, 143, 213, max = 255),
           green = rgb(119, 171, 67, max = 255))
-
+    
+    x$easi <-
+        c('#009193', '#942093', '#0096FF','#F5A601', '#204E5F', '#2095A0')
+    
     x$hc <- list()
     x$hc$palettes <- list()
     x$hc$palettes$default <- c("#7cb5ec", "#434348", "#90ed7d", "#f7a35c",
